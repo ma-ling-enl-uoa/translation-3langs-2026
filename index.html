@@ -55,7 +55,7 @@ nav.scrolled{background:rgba(12,28,40,.96);border-bottom-color:rgba(184,58,46,.3
 .napply:hover{background:var(--rust-l)}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
 .hamburger span{display:block;width:22px;height:1.5px;background:rgba(255,255,255,.7)}
-.mob-menu{display:none;position:fixed;inset:0;background:var(--dk);z-index:99;flex-direction:column;align-items:center;justify-content:center;gap:32px}
+.mob-menu{display:none;position:fixed;inset:0;background:var(--dk);z-index:200;flex-direction:column;align-items:center;justify-content:center;gap:32px}
 .mob-menu.open{display:flex}
 .mob-menu a{font-family:'Playfair Display',serif;font-size:30px;color:rgba(255,255,255,.85)}
 .mob-menu a:hover{color:var(--gold)}
@@ -176,8 +176,8 @@ section{padding:90px 8%}
 .cc-dept{font-family:'Space Mono',monospace;font-size:7.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
 .cc-desc{font-size:13.5px;color:var(--muted);line-height:1.65}
 .diss-block{grid-column:1/-1;background:var(--dk);padding:32px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px}
-.db-n{font-family:'Playfair Display',serif;font-size:52px;font-weight:900;color:var(--gold);line-height:1;text-align:center}
-.db-l{font-family:'Space Mono',monospace;font-size:7.5px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.35);text-align:center;margin-top:4px}
+.db-n,.db-num{font-family:'Playfair Display',serif;font-size:52px;font-weight:900;color:var(--gold);line-height:1;text-align:center}
+.db-l,.db-lab{font-family:'Space Mono',monospace;font-size:7.5px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.35);text-align:center;margin-top:4px}
 .db-text h3{font-family:'Playfair Display',serif;font-size:21px;font-weight:700;color:#fff;margin-bottom:8px}
 .db-text p{font-size:14px;color:rgba(255,255,255,.45);line-height:1.65}
 
@@ -330,9 +330,9 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div><!-- /hero-inner -->
   <div class="dept-strip">
   <div class="ds">
-  <div class="ds-role r">Translation Theory · Corpus Linguistics · Digital Translation</div>
+  <div class="ds-role r">Translation Theory · Corpus Linguistics · Language Contact &amp; Change</div>
   <div class="ds-name">Dept. of English Language &amp; Literature</div>
-  <div class="ds-focus">Translation studies, psycholinguistics, machine translation, AVT</div>
+  <div class="ds-focus">Translation studies, psycholinguistics, machine translation, language contact and change</div>
   </div>
   <div class="ds">
   <div class="ds-role g">Discourse · Sociolinguistics · Semiotics · Language Contact</div>
@@ -379,8 +379,8 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="dept-card r">
   <div class="dc-role r">Leading Department</div>
   <div class="dc-name">English Language &amp; Literature</div>
-  <div class="dc-focus">Home of translation theory, psycholinguistics, corpus methods, machine translation, and audiovisual translation. Provides the programme's theoretical and methodological backbone.</div>
-  <div class="dc-tags"><span class="dctag">Translation Theory</span><span class="dctag">Psycholinguistics</span><span class="dctag">Corpus Linguistics</span><span class="dctag">Machine Translation</span></div>
+  <div class="dc-focus">The Department cultivates translation theory, psycholinguistics, corpus methods, machine translation, audiovisual translation, language contact, and language change. It provides the programme's theoretical and methodological foundation.</div>
+  <div class="dc-tags"><span class="dctag">Translation Theory</span><span class="dctag">Psycholinguistics</span><span class="dctag">Corpus Linguistics</span><span class="dctag">Machine Translation</span><span class="dctag">Language Contact</span><span class="dctag">Language Change</span></div>
   </div>
   <div class="dept-card g">
   <div class="dc-role g">Cooperating Department</div>
